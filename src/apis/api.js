@@ -1,7 +1,8 @@
 import axios from "axios";
 import { getToken } from "./token";
 
-export const baseUrl = `http://localhost:8000/api/v1/`;
+// export const baseUrl = `http://localhost:8000/api/v1/`;
+export const baseUrl = `https://sports-server-t44k.onrender.com/api/v1/`;
 
 export const baseUrlClient = `http://localhost:3000/`;
 
